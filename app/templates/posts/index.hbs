@@ -1,0 +1,14 @@
+{{#each model as |post|}}
+
+<article class="post">
+  <h1 class="post---title">
+    {{post.title}}
+  </h1>
+  <p class="body">
+    {{post.body}}
+  </p>
+</article>
+
+{{/each}}
+
+{{outlet}}
